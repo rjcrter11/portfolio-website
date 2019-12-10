@@ -608,8 +608,14 @@ input[type="radio"]+label:before {
 
 .image img {
 	border-radius: 4px;
-	display: block;
+	display: inline-block;
+	height: 79vh;
 }
+
+/* .image1 img {
+	border-radius: 4px;
+	display: inline-block;
+} */
 
 .image.left, .image.right {
 	max-width: 40%;
@@ -643,13 +649,23 @@ input[type="radio"]+label:before {
 
 .image.main {
 	display: block;
-	margin: 2.5rem 0;
+	margin: 2.5rem 0 10rem 0;
 	width: 100%;
 }
+
+/* .image1.main {
+	display: block;
+	margin: 2.5rem 0 10rem 0;
+	width: 100%;
+} */
 
 .image.main img {
 	width: 100%;
 }
+
+/* .image1.main img {
+	width: 100%;
+} */
 
 @media screen and (max-width: 736px) {
 	.image.main {
